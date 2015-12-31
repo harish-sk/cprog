@@ -10,7 +10,9 @@ int main()
 {
    struct student a = {"Ram", 7, 2};
    struct student b = {"Mason", 9, 4};
-   struct student *pa = &a, *pb = &b; 
+   struct student *pa = &a, *pb;
+
+   pb = &b;
 
    printf("Student %s age is %d and studies in %d\n",
           pa->name, pa->age, pa->class);
