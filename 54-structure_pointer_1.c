@@ -1,3 +1,6 @@
+/* Article Associated with this program can be found here 
+   http://www.harishnote.com/2015/12/c-programming-54-structure-pointer.html
+*/
 #include <stdio.h>
 
 struct student {
